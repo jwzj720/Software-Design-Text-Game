@@ -1,0 +1,13 @@
+***
+symbol=A
+text=Hello I am a door
+actions:
+Open chest:key:add_item[jewel]
+leave:null
+***
+symbol=B
+text=Hello I am not a door
+actions:
+Close Door:lose
+leave:null
+Open door:locket:null

@@ -1,0 +1,12 @@
+***
+symbol=Keys
+text=You have found the key
+actions:
+Collect the key
+leave the key
+***
+symbol=Goons
+text=You have run into a guard
+actions:
+Leave:
+***

@@ -1,0 +1,27 @@
+***
+symbol=X
+text=You've done it, you've made it to the end
+actions:
+Claim your prize:win
+***
+symbol=A
+text=This door is locked, you need a key to open it
+actions:
+Try door:key:move[0,-1]
+Leave:move[0,1]
+***
+symbol=T
+text=What a beautiful tree
+actions:
+Give it a hug:null
+***
+symbol=@
+text=Hello I am the computer man, I love computers
+actions:
+Call him a mean name:null
+***
+symbol=C
+text=You've found a chest, how wonderful
+actions:
+Open chest:add_item[key]
+Leave it be:null

@@ -1,0 +1,18 @@
+***
+symbol=Keys
+text=You have found the key
+actions:
+Collect the key:satchel:add_item
+leave the key:null
+***
+symbol=Goons
+text=You have run into a guard
+actions:
+Shoot the guard:gun:bullets:remove_item
+Leave:null
+***
+symbol=Mud
+text=You have run into a mountain
+actions:
+Turn around:null
+Climb the mountain:shoes:remove_item

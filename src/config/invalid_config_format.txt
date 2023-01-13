@@ -1,0 +1,11 @@
+***
+symbo=T
+something interesting
+actions
+Throw away your bag:trash:remove_item
+***
+symbolD
+tet=You ran into the guard dog
+Train the dog:treats:remove_item
+Fight the dog:armor:remove_item
+Leave:null
